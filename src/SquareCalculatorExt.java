@@ -16,6 +16,7 @@ public class SquareCalculatorExt {
         double perimeter = 2 * (width + length) ; // 2L + 2W
         System.out.println("The perimeter of the rectangle is " + perimeter);
 
+
     }
 }
 

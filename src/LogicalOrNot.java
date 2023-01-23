@@ -1,4 +1,5 @@
-import java.util.Scanner;public class LogicalOrNot { // main class
+import java.util.Scanner;
+public class LogicalOrNot { // main class
     public static void main(String[] args) { // main method
         Scanner obj = new Scanner(System.in);
         System.out.println("Do you want to continue playing?");
