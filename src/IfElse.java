@@ -7,8 +7,8 @@ public class IfElse {
         //      && ( double ampersand) = (And) both conditions must be true
         System.out.println("Enter the bedroom number");
         int bedroomNum = reader.nextInt();
-        // if the bedroom number between 2 to 5, the house is suitable for family
-        if (bedroomNum < 6 && bedroomNum >=2) { // AND, both statements must be T
+        // if the bedroom number between 2 and 5, the house is suitable for family
+        if (bedroomNum < 6 && bedroomNum >=2) { // AND, both statements must be True
             System.out.println("The house is suitable for family");
 
         } else {

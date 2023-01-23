@@ -2,19 +2,19 @@ import java.util.Scanner; // import Scanner class
 
 public class UserInputExample1 {
     public static void main(String[] args) {
-        // this program can read pokemon name and health value
+        // this program can read Pokemon name and health value
         // create object scanner
         Scanner myObj = new Scanner(System.in);
 
-        // read pokemon name
+        // read Pokemon name
         System.out.println("Enter the Pokemon name : "); // string name
         String name = myObj.nextLine(); // can read String value
 
-        // read pokemon health value (integer)
-        System.out.println("Enter pokemon health value : ");
+        // read Pokemon health value (integer)
+        System.out.println("Enter Pokemon health value : ");
         int health = myObj.nextInt();
 
-        System.out.println("Your pokemon name is " +name);
-        System.out.println("Your pokemon health is " + health);
+        System.out.println("Your Pokemon name is " +name);
+        System.out.println("Your Pokemon health is " + health);
     }
 }

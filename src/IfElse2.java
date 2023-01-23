@@ -5,12 +5,17 @@ public class IfElse2 {
         // if statement = performs a block of code if the condition to be true
         // logical operator = used to connect two or more expression
         //      && (double ampersand) = (AND) both conditions must be true
-        int savings = 10000;
-        // if the savings between 0 to 85000, the saving is suitable for family        if (bedroomNum >= 2 && bedroomNum < 6) { // AND, both statements must T            System.out.println("The house is suitable for the family");
 
-        if (savings >= 0 && savings <= 85000) {
+            System.out.println("Enter the savings:");
+        int savings = reader.nextInt();
+        // if the savings between 0 and 85000, the saving is protected
+        // if (savings >= 10000 && savings < 85000) { // AND, both statements must True
+
+        if (savings >= 2 && savings <= 85000)
+        {
             System.out.println("Money is protected.");
-    }   else {
+    }   else
+    {
             System.out.println("It is above threshold:");
 
     }

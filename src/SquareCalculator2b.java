@@ -8,7 +8,7 @@ public class SquareCalculator2b { //class
         double length = 25.3;
 
         System.out.println("The width of the rectangle is " + width);
-        // short cut sout to print
+        // shortcut sout to print
         System.out.println("The length of the rectangle is " + length);
 
         // create variable area

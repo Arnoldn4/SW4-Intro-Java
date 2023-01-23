@@ -13,6 +13,8 @@ public class SquareCalculatorExt {
         System.out.println("The length of rectangle is " + length);
         double area = width * length;
         System.out.println("The area of the rectangle is " + area);
+        double perimeter = 2 * (width + length) ; // 2L + 2W
+        System.out.println("The perimeter of the rectangle is " + perimeter);
 
     }
 }

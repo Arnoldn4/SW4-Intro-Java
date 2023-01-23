@@ -13,9 +13,9 @@ public class Vehicle {
         // call your variables back and print
         System.out.println("The vehicle type is " + vehicleType);
         System.out.println("The car is " + name);
-        System.out.println("The model is " + carSeries +" series");
+        System.out.println("The model is " + carSeries + " series ");
         System.out.println("The car fuel is " + vehicleFuel+ "lt");
-        System.out.println("The vehicle type is " + name + carSeries +"series " +  vehicleFuel +"lt");
+        System.out.println("The vehicle type is " + name + carSeries + " series " +  vehicleFuel +"lt");
 
     }
 

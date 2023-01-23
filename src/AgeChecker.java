@@ -9,12 +9,12 @@ public class AgeChecker {
 
         System.out.println("Your age is " + age + " years ");
 
-        // check if the age more than 17, grant access, else no access
         // if, else statement
-        if (age <= 17) {
+        // negative number-> enter positive number, 0-16 -> denied, >17 -> granted
+        if (age >= 17) {
             System.out.println("Access granted!");
-        }else if (age>0){
-            System.out.println("Enter positive number");
+        }else if (age < 0) {
+            System.out.println("Enter positive number only!");
         }else {
             System.out.println("Access denied:");
         }
