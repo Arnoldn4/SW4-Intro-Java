@@ -7,7 +7,7 @@ public class ReverseString2 {
         char[] letters = reader.nextLine().toCharArray();
 
         for (int i = letters.length - 1; i >= 0; i--) {
-            System.out.println(letters[i]);
+            System.out.print(letters[i]);
         }
     }
 }
