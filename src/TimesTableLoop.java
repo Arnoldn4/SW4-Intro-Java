@@ -14,8 +14,8 @@ public class TimesTableLoop {
         System.out.print ("What times table would you like? :");
 
         int timesTable= reader.nextInt();
-        for(int counter=1; counter <=12; counter ++){
-            System.out.println( counter + "x"+ timesTable +"="+ counter*timesTable );
+        for(int i=1; i <=12;  i++){
+            System.out.println(i + " x "+ timesTable + " = " + i * timesTable );
         }
     }
 }

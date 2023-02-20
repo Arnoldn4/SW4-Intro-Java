@@ -11,7 +11,7 @@ public class ThreeDigitCodes {
             for (int j = 1; j <= 4; j++) { // handling the 2nd digit
                 for (int k = 1; k <= 4; k++) { // handling the 3rd digit
                     if (i != j && i != k && j != k) {
-                        System.out.println(i + "" + j + "" + k);
+                        System.out.println(i + " " + j + " " + k);
                         count++;
                     }
                 } // end of 3rd loop
